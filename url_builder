@@ -1,0 +1,48 @@
+=ARRAYFORMULA
+	(LOWER(
+        	REGEXREPLACE(
+             		REGEXREPLACE(
+                 		REGEXREPLACE(
+		                        REGEXREPLACE(
+                		                REGEXREPLACE(
+                                		        REGEXREPLACE(
+                                                		REGEXREPLACE(
+                                                		        REGEXREPLACE(
+                                                                		REGEXREPLACE(
+											REGEXREPLACE(
+                    B4:B,
+ 
+ "(?i)\s+|[,]+|[.]+|®|[:]+|\+|[_]+|\s?(?:el|del?|sus?|en|l[ao]s?|un[oa]?s?)\s",
+                "-"
+                            ),
+"(?i)¿|>|<|¿|\?|’|;|;|\[|\]|}|{|\||\=|~|[\/]+|`|!|@|#|\$|%|\^|&|\*|\(|\)|#|'|[,]+|^-",
+                ""
+                        ),
+
+ "[-]+|^-",
+              	"-"
+                        ),
+"(?i)á|à|â|ã|ä|å|æ|ā|ă|ą",
+                "a"
+                        ),
+"(?i)é|è|ê|ë|ē|ė|ę|ě",
+                "e"
+                        ),
+"(?i)í|ì|î|ï|ĩ|ī|į|ı",
+                "i"
+                        ),
+"(?i)ó|ò|ô|õ|ö|ø|ō|ŏ|ő",
+                "o"
+                        ),
+"(?i)ú|ù|û|ü|ũ|ū|ŭ|ů|ű|ų",
+                "u"
+                        ),
+"(?i)ç",
+                "c"
+			),
+"(?i)ñ",
+                "n"
+                
+        )
+    )
+)
