@@ -1,0 +1,1 @@
+=IF(AND(REGEXMATCH(B7,"(?i)positive match"),NOT(REGEXMATCH(B7,"negative match"))),"output if true","output if false")
