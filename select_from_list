@@ -1,0 +1,5 @@
+=QUERY(B1:C,"SELECT * WHERE B LIKE '%"& A1 &"%'")
+ 
+       _^_                 _^_          _^_
+      RANGE             CELL TO       CELL WITH
+                        FILTER        OPTIONS
