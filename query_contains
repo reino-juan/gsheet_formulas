@@ -1,0 +1,5 @@
+=QUERY('MASTER LAC'!1:1000,"SELECT B,A WHERE B = 'product' and A LIKE '%maquillaje%'")
+
+                                                                            _^_
+                                                                        Word that we are 
+                                                                        searching
