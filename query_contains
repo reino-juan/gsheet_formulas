@@ -1,3 +1,5 @@
+****UPDATE: You can use the command 'CONTAINS'****
+
 =QUERY('MASTER LAC'!1:1000,"SELECT B,A WHERE B = 'product' and A LIKE '%maquillaje%'")
 
                                                                             _^_
