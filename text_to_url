@@ -1,0 +1,11 @@
+Search using regular expressions
+
+in the “Find” box type
+
+.*\:\/\/.*
+
+in the “Replace with” box type
+
+=HYPERLINK("$&","$&")
+
+
