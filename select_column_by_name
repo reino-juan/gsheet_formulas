@@ -1,0 +1,5 @@
+=HSTACK(
+  FILTER(Sheet1!A2:AZ, Sheet1!A1:AZ1="ColumnName1"),
+  FILTER(Sheet1!A2:AZ, Sheet1!A1:AZ1="ColumnName2"),
+  FILTER(Sheet1!A2:AZ, Sheet1!A1:AZ1="ColumnName3")
+)
